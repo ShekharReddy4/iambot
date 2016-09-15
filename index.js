@@ -1,5 +1,5 @@
 var config = {
-    channels: ["#kmitfoss", "#codecult"],
+    channels: ["#kmitfoss", "#codecult", "kmitgsoc16"],
     server: "irc.freenode.net",
     botName: "iambot"
 };

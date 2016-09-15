@@ -1,0 +1,1 @@
+**iambot** is an IRC Bot

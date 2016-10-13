@@ -1,0 +1,25 @@
+{
+  "name": "iambot",
+  "description": "IRC bot",
+  "keywords": [
+    "irc",
+    "bot"
+  ],
+  "image": "heroku/nodejs",
+  "formation": {
+    "web": {
+      "quantity": 0
+    },
+    "app": {
+      "quantity": 1
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
